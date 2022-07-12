@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import React, { Suspense, lazy, useEffect } from "react";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -62,6 +63,7 @@ function App() {
               <Route path="/dashboard" element={<Dashboard />}></Route>
               <Route path="/enquiries" element={<Enquiries />} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/faq" element={<FAQ />} />
             </>
           ) : (
             <>
